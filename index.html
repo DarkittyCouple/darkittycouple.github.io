@@ -19,19 +19,38 @@
     <img src="img/images.jpg" alt="Gatinho fofo">
     <p>Desculpe por qualquer mal entendido ou mágoa que eu possa ter causado. Gostaria de ter a oportunidade de conversar e resolver as coisas. Você aceitaria sair comigo?</p>
     <ul class="options">
-      <li><input type="radio" id="option1" name="place" value="Cinema"> <label for="option1">Assistir um filme</label></li>
-      <li><input type="radio" id="option2" name="place" value="Parque"> <label for="option2">Caminhada no Fritz Plaumann</label></li>
-      <li><input type="radio" id="option3" name="place" value="Piquenique"> <label for="option3">Piquenique no Santuário</label></li>
-      <li><input type="radio" id="option4" name="place" value="Jantar"> <label for="option4">Jantar no Petry Fest House</label></li>
-      <li><input type="radio" id="option4" name="place" value="foda-se"> <label for="option4">Não quero saber de ti</label></li>
+      <li><input type="radio" id="option1" name="place" value="GATO DE BOTAS? OK OK, infelizmente nenhum filme vai ser como aquele, mas podemos achar algum, temos tempo para escolher hehe"> <label for="option1">Assistir um filme</label></li>
+      <li><input type="radio" id="option2" name="place" value="Vamos resgatar o seu espirito aventureiro, vou te levar em todas as trilhas e a gente vai tirar muitas fotos 👨‍🌾👩‍🌾(EMOJI NO SENSE)"> <label for="option2">Caminhada no Fritz Plaumann</label></li>
+      <li><input type="radio" id="option3" name="place" value="Saudades do nosso primeiro 'Encontro' sozinhos, onde me apaixonei de verdade por você, essa é a melhor escolha 😊"> <label for="option3">Piquenique no Santuário</label></li>
+      <li><input type="radio" id="option4" name="place" value="sempre quis te levar no melhor restaurante da região, melhor ambiente para ficarmos tranquilos, Bonito, pacato e revolucionante"> <label for="option4">Jantar no Petry Fest House</label></li>
+      <li><input type="radio" id="option5" name="place" value="Ao menos tentei, mesmo sabendo que isso aconteceria espero que esteja bem, você é uma menina incrível e amo tudo em você, as coisas que aconteceram ficaram para trás."> <label for="option5">Não quero saber de ti</label></li>
     </ul>
-    <button>Enviar</button>
+    <button id="submit-button">Enviar</button>
   </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 CasalDev. Todos os direitos reservados. Reconciliação</p>
+    </div>
+  </footer>
+  <script>
+    const submitButton = document.getElementById('submit-button');
+
+    submitButton.addEventListener('click', () => {
+      const options = document.getElementsByName('place');
+      let selectedOption = '';
+
+      options.forEach(option => {
+        if (option.checked) {
+          selectedOption = option.value;
+        }
+      });
+
+      if (selectedOption !== '') {
+        alert(`${selectedOption}`);
+      } else {
+        alert('Por favor, selecione uma opção.');
+      }
+    });
+  </script>
 </body>
-<footer>
-  <div class="container">
-    <p>&copy; 2023 CasalDev. Todos os direitos reservados. Reconciliação</p>
-  </div>
-</footer>
-<script src="script.js"></script>
 </html>

@@ -1,23 +1,14 @@
-Criar páginas de perfis para os dois integrantes
-GERAL - ADICIONAR FONTE DO CANVAS E VERIFICAR ICONES
+Criar páginas de perfis para os dois integrantes - Feito
+GERAL - ADICIONAR FONTE DO CANVAS E VERIFICAR ICONES - Feito
+Ajustar o Header para ficar bonito (Posso alterar para um botão) tirar esse fundo enfim Feito
+
+Ajustar menus expansiveis (COMPETENCIAS, IDIOMAS, EXPERIENCIAS, CURRICULO, GITHUB'link')
 
 
-Perfil-1
-Preciso ajustar background
-Adicionar "FOTO DE PERFIL"
-Adicionar "NOME COMPLETO"
-Adicionar "APELIDO"
-Adicionar menus expansiveis (COMPETENCIAS, IDIOMAS, EXPERIENCIAS, CURRICULO, GITHUB'link')
+LAST-ÚLTIMO (GERAL - AJUSTAR VISÃO DO CELULAR usando @media) ;; 
 
+Página de Desculpas
 
-
-
-
-LAST-ÚLTIMO (GERAL - AJUSTAR VISÃO DO CELULAR usando @media)
-
-Página de desculpas
-
-Ajustar o Botão para que quando ela envie a resposta seja redirecionada ao portfólio(dependendo de sua resposta)
 Ajustar um alert para cada resposta
 Ajustar o Header para ficar bonito (Posso alterar para um botão) tirar esse fundo enfim
 Ajustar a foto do gatinho
