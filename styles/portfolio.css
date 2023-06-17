@@ -40,15 +40,15 @@ body {
   }
   
   .profile-left img {
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     border: 5px solid #52CBBE; /* Adicionando a borda */
     margin-bottom: 10px;
   }
   .profile-right img {
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     border: 5px solid #1C2120 ; /* Adicionando a borda */
     margin-bottom: 10px;

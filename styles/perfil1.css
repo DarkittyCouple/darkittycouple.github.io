@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #1C2120;
+    background-color: #52CBBE;
 }
 
 .profile-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: #52CBBE;
+    color: #1C2120;
 }
 
 .profile-header {
@@ -21,7 +21,7 @@ body {
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
-    border: 5px solid #52CBBE;
+    border: 5px solid #1C2120;
     /* Adicionando a borda */
     margin-bottom: 10px;
 }
@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     width: 800px;
     height: 40px;
-    border: 4px solid #52CBBE;
+    border: 4px solid #1C2120;
     margin-left: 23%;
     padding: 0 10px;/
 }
@@ -54,25 +54,25 @@ body {
     /* Alterado para alinhar o texto e o ícone */
     width: 800px;
     height: 40px;
-    border: 4px solid #52CBBE;
-    background-color: #52CBBE;
+    border: 4px solid #1C2120;
+    background-color: #1C2120;
     margin-left: 23%;
     padding: 0 10px;/
 }
 
 .retangulo-profile:hover .menu-title {
-    color: #1C2120;
+    color: #52CBBE;
 }
 
 .profile-icon {
-    background-image: url(../img/seta-para-baixo\ \(2\).png);
+    background-image: url(../img/seta-para-baixo\ \(3\).png);
     background-size: cover;
     width: 28px;
     height: 27px;
 }
 
 .retangulo-profile:hover .profile-icon {
-    background-image: url(../img/seta-para-baixo\ \(3\).png);
+    background-image: url(../img/seta-para-baixo\ \(2\).png);
 }
 
 .profile-menu {
@@ -100,28 +100,20 @@ body {
 }
 
 .retangulo-profile:hover .profile-download {
-    background-image: url(../img/download\ \(1\).png);
-    background-size: cover;
-    width: 28px;
-    height: 27px;
-}
-
-.profile-download {
     background-image: url(../img/download\ \(2\).png);
     background-size: cover;
     width: 28px;
     height: 27px;
 }
 
-.profile-git {
-    background-image: url(../img/link-alt\ \(1\).png);
+.profile-download {
+    background-image: url(../img/download\ \(1\).png);
     background-size: cover;
     width: 28px;
     height: 27px;
-    margin-right: 0px;
 }
 
-.retangulo-profile:hover .profile-git {
+.profile-git {
     background-image: url(../img/link-alt.png);
     background-size: cover;
     width: 28px;
@@ -129,8 +121,16 @@ body {
     margin-right: 0px;
 }
 
+.retangulo-profile:hover .profile-git {
+    background-image: url(../img/link-alt\ \(1\).png);
+    background-size: cover;
+    width: 28px;
+    height: 27px;
+    margin-right: 0px;
+}
+
 .profile .menu-title,a {
-    color: #52CBBE;
+    color: #1C2120;
     text-decoration: none;
 }
 
@@ -150,14 +150,14 @@ body {
 .button-home {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #52CBBE;
+    background-color: #1C2120;
     border-radius: 20px;
     text-decoration: none;
     margin-left: 30px;
-    color: #1C2120;
+    color: #52CBBE;
 }
 .button-home:hover{
-    background-color: #1C2120;
-    color: #52CBBE;
-    border: 1px solid #52CBBE;
+    background-color: #52CBBE;
+    color: #1C2120;
+    border: 1px solid #1C2120;
 }
