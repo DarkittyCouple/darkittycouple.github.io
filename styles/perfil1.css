@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     color: #1C2120;
+    font-family: 'League Gothic';
+    font-size: x-large;
 }
 
 .profile-header {
@@ -82,6 +84,9 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: 'League Gothic';
+    font-size: x-large;
+    letter-spacing: 0.06em;
 }
 
 .menu-title {
@@ -97,6 +102,9 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: 'League Gothic';
+    font-size: x-large;
+    letter-spacing: 0.06em;
 }
 
 .retangulo-profile:hover .profile-download {
