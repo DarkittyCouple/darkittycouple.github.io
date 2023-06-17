@@ -1,6 +1,7 @@
 Criar páginas de perfis para os dois integrantes - Feito
 GERAL - ADICIONAR FONTE DO CANVAS E VERIFICAR ICONES - Feito
 Ajustar o Header para ficar bonito (Posso alterar para um botão) tirar esse fundo enfim Feito
+Ajustar um alert para cada resposta feito
 
 Ajustar menus expansiveis (COMPETENCIAS, IDIOMAS, EXPERIENCIAS, CURRICULO, GITHUB'link')
 
@@ -9,8 +10,6 @@ LAST-ÚLTIMO (GERAL - AJUSTAR VISÃO DO CELULAR usando @media) ;;
 
 Página de Desculpas
 
-Ajustar um alert para cada resposta
-Ajustar o Header para ficar bonito (Posso alterar para um botão) tirar esse fundo enfim
 Ajustar a foto do gatinho
 Ajustar o footer para que fique alinhado abaixo da tela, pois está um pouco acima
 

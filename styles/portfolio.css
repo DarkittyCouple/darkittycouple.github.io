@@ -1,130 +1,129 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+h2, h3 {
+  display: block;
+  margin: 0;
+}
+.wave-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'League Gothic';
+  font-size: x-large;
+  letter-spacing: 0em;
+}
+
+.profile-left {
+  left: 0;
+  color: #52CBBE;
+  background-color: #1C2120;
+}
+
+.profile-right {
+  right: 0;
+  background-color: #52CBBE; /* Cor cinza */
+  color: #1C2120;
+}
+
+.profile-left img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border: 5px solid #52CBBE; /* Adicionando a borda */
+  margin-bottom: 10px;
+}
+.profile-right img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border: 5px solid #1C2120 ; /* Adicionando a borda */
+  margin-bottom: 10px;
+}
+
+.profile-left .visit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #52CBBE;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #1C2120;
+  width: 10%;
+}
+.profile-right .visit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1C2120;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #52CBBE;
+  width: 10%;
+}
+.profile-left .visit-button:hover {
+  background-color: #1C2120;
+  color: #52CBBE;
+  border: 1px solid #52CBBE;
+}
+.profile-right .visit-button:hover {
+  background-color: #52CBBE;
+  color: #1C2120;
+  border: 1px solid #1C2120;
+}
+
+.wave-container:before,
+.wave-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 200%;
+  height: 50px;
+  bottom: 0;
+}
+
+.wave-container:before {
+  left: -100%;
+  background: url("caminho-da-imagem") repeat-x;
+  animation: wave-animation-left 2s infinite linear;
+}
+
+.wave-container:after {
+  left: 0;
+  background: url("caminho-da-imagem") repeat-x;
+  animation: wave-animation-right 2s infinite linear;
+}
+
+@keyframes wave-animation-left {
+  0% {
+    transform: translateX(0);
   }
-  h2, h3 {
-    display: block;
-    margin: 0;
+  100% {
+    transform: translateX(-50%);
   }
-  .wave-container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+}
+
+@keyframes wave-animation-right {
+  0% {
+    transform: translateX(0);
   }
-  
-  .profile {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'League Gothic';
-    font-size: x-large;
-    letter-spacing: 0em;
+  100% {
+    transform: translateX(50%);
   }
-  
-  .profile-left {
-    left: 0;
-    color: #52CBBE;
-    background-color: #1C2120;
-  }
-  
-  .profile-right {
-    right: 0;
-    background-color: #52CBBE; /* Cor cinza */
-    color: #1C2120;
-  }
-  
-  .profile-left img {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    border: 5px solid #52CBBE; /* Adicionando a borda */
-    margin-bottom: 10px;
-  }
-  .profile-right img {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    border: 5px solid #1C2120 ; /* Adicionando a borda */
-    margin-bottom: 10px;
-  }
-  
-  .profile-left .visit-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #52CBBE;
-    color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top: 10px;
-    color: #1C2120;
-    width: 10%;
-  }
-  .profile-right .visit-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1C2120;
-    color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top: 10px;
-    color: #52CBBE;
-    width: 10%;
-  }
-  .profile-left .visit-button:hover {
-    background-color: #1C2120;
-    color: #52CBBE;
-    border: 1px solid #52CBBE;
-  }
-  .profile-right .visit-button:hover {
-    background-color: #52CBBE;
-    color: #1C2120;
-    border: 1px solid #1C2120;
-  }
-  
-  .wave-container:before,
-  .wave-container:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 200%;
-    height: 50px;
-    bottom: 0;
-  }
-  
-  .wave-container:before {
-    left: -100%;
-    background: url("caminho-da-imagem") repeat-x;
-    animation: wave-animation-left 2s infinite linear;
-  }
-  
-  .wave-container:after {
-    left: 0;
-    background: url("caminho-da-imagem") repeat-x;
-    animation: wave-animation-right 2s infinite linear;
-  }
-  
-  @keyframes wave-animation-left {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  @keyframes wave-animation-right {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(50%);
-    }
-  }
-  
+}
