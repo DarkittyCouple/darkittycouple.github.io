@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/perfil.css">
+  <title>Perfil - Alexsandro Fischer</title>
+</head>
+<body>
+  <div class="profile-left">
+    <div class="profile-header">
+      <img src="caminho-para-a-foto.jpg" alt="Foto de Perfil" class="profile-photo">
+      <div class="profile-info">
+        <h2 class="profile-name" style="margin-bottom: 1px;">Alexsandro Fischer</h2>
+        <h3 class="profile-nickname" style="margin-top: 1px;">(Alék)</h3>
+      </div>
+    </div>
+    <div class="retangulo-profile" style="margin-top: 35px;">
+      <div class="profile-menu menu">
+        <h4 class="menu-title">Competências</h4>
+        <ul class="menu-items">
+          <li>Competência 1</li>
+          <li>Competência 2</li>
+          <li>Competência 3</li>
+        </ul>
+      </div>
+      <div class="profile-icon"></div>
+    </div>
+    <div class="retangulo-profile" style="margin-top: 35px;">
+      <div class="profile-menu menu">
+        <h4 class="menu-title">Experiências</h4>
+        <ul class="menu-items">
+          <li>Experiência 1</li>
+          <li>Experiência 2</li>
+          <li>Experiência 3</li>
+        </ul>
+      </div>
+      <div class="profile-icon"></div>
+    </div>
+    <div class="retangulo-profile" style="margin-top: 35px;">
+      <div class="profile-menu menu">
+        <h4 class="menu-title">Idiomas</h4>
+        <ul class="menu-items">
+          <li>Idioma 1</li>
+          <li>Idioma 2</li>
+          <li>Idioma 3</li>
+        </ul>
+      </div>
+      <div class="profile-icon"></div>
+    </div>
+    <div class="retangulo-profile" style="margin-top: 35px;">
+      <div class="profile-static-menu menu">
+        <h4 class="menu-title">Currículo</h4>
+        <a href="caminho-para-o-curriculo.pdf"></a>
+      </div>
+      <div class="profile-download"></div>
+    </div>
+    <div class="retangulo-profile" style="margin-top: 35px;">
+      <div class="profile-static-menu menu">
+        <h4 class="menu-title">GitHub</h4>
+        <a href="https://github.com/seu-usuario"></a>
+      </div>
+      <div class="profile-git"></div>
+    </div>
+  </div>
+  
+  <script>
+    const menus = document.querySelectorAll('.menu');
+
+    menus.forEach(menu => {
+      const title = menu.querySelector('.menu-title');
+      const list = menu.querySelector('.menu-items');
+
+      title.addEventListener('click', () => {
+        menu.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
