@@ -182,12 +182,11 @@ body {
     .profile-header .profile-photo{
     height: 60%;
     width: 40%;
+    margin-right: 5%;
     }
 
     .profile-header .profile-info{
         margin-top: 5%;
-        width: 40%;
-        height: 60%;
     }
     .profile-header .profile-info .profile-name{
         letter-spacing: 5%;
@@ -199,9 +198,9 @@ body {
         display: inline-block;
     }
     .retangulo-profile{
-    width: 80%;
+    width: 60%;
     }
     .retangulo-profile:hover{
-    width: 80%;
+    width: 60%;
     }
 }
