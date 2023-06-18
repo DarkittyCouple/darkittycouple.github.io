@@ -5,9 +5,6 @@ Ajustar um alert para cada resposta feito
 
 Ajustar menus expansiveis (COMPETENCIAS, IDIOMAS, EXPERIENCIAS, CURRICULO, GITHUB'link')
 
-
-LAST-ÚLTIMO (GERAL - AJUSTAR VISÃO DO CELULAR usando @media) ;; 
-
 Página de Desculpas
 
 Ajustar a foto do gatinho
