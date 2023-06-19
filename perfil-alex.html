@@ -51,13 +51,13 @@
       </div>
       <div class="profile-icon"></div>
     </div>
-    <div class="retangulo-profile">
+    <div class="retangulo-profile" id="retangulo" onclick="">
       <div class="profile-static-menu menu">
         <a href="pdf/Alexsandro Fischer.pdf"><h4 class="menu-title" style="margin-top: 30%;">Currículo</h4></a>
       </div>
       <div class="profile-download"></div>
     </div>
-    <div class="retangulo-profile">
+    <div class="retangulo-profile" id="github">
       <div class="profile-static-menu menu">
         <a href="https://github.com/alexaakie"><h4 class="menu-title" style="margin-top: 30%;">GitHub</h4></a>
       </div>
@@ -76,6 +76,19 @@
         menu.classList.toggle('active');
       });
     });
+    const retangulo = document.getElementById('retangulo');
+    const link = document.querySelectorAll('a');
+    const segundoLink = link[1];
+  // Adiciona o evento de clique ao retângulo
+  retangulo.addEventListener('click', () => {
+  segundoLink.click(); // Dispara o evento de clique no link
+});
+const github = document.getElementById('github');
+    const terceiroLink = link[2];
+  // Adiciona o evento de clique ao retângulo
+  github.addEventListener('click', () => {
+  terceiroLink.click(); // Dispara o evento de clique no link
+});
   </script>
 </body>
 </html>
